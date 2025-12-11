@@ -8,7 +8,7 @@ The project is a simple but functional document management system where a user c
 
 # 1. Tech Stack Choices
 
-### **Frontend framework and why?**
+### **Frontend framework and reasons to choose**
 I used **React (Create React App)** because:
 
 - Easy setup and beginner friendly  
