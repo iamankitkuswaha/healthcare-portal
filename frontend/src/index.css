@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body { background: #f5f7fb; }
+.card { border: 0; border-radius: 12px; box-shadow: 0 6px 18px rgba(20,30,80,0.06); }
+
+/* ---------- layout & spacing ---------- */
+/* ---------- layout & spacing ---------- */
+.page-container {
+  padding-top: 28px;   /* margin from top */
+  padding-bottom: 40px; /* margin from bottom */
+  background: #f5f7fb;
+  min-height: 100vh;
+}
+
+/* center column wrapper used in App.js */
+.center-col {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;      /* <--- toast will be absolute inside this so it scrolls with page */
+  padding-top: 8px;
+}
+
+/* card visual */
+.app-card {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(22,34,60,0.06);
+}
+
+/* ---------- toast placement inside center-col (not fixed) ---------- */
+.center-toast {
+  position: fixed;    /* fixed to viewport */
+  top: 16px;          /* distance from top */
+  right: 18px;        /* distance from right */
+  z-index: 1060;
+  min-width: 220px;
+}
+
+
+
+/* add a close button style if desired */
+.center-toast .btn-close {
+  filter: none;
+}
+
+/* ---------- docs scroll ONLY inside My Documents ---------- */
+.docs-scroll {
+  max-height: 40vh;   /* controls document list height and creates scrollbar when long */
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* webkit scrollbar look (optional) */
+.docs-scroll::-webkit-scrollbar { width: 10px; }
+.docs-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.10); border-radius: 8px; }
+
+/* ---------- actions & table tweaks ---------- */
+.action-btn { display: inline-flex; align-items: center; gap: 8px; }
+.actions-col { min-width: 160px; }
+
+/* prefer CSS class for file name column rather than inline style */
+.col-filename {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
