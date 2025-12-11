@@ -1,7 +1,6 @@
 # Healthcare Document Portal — Backend (Spring Boot + SQLite)
 
-This is the backend for the **Healthcare Document Portal**.  
-It is built using **Spring Boot**, **Spring Web**, **Spring Data JPA**, and **SQLite**.  
+This is the backend for the **Healthcare Document Portal**. It is built using **Spring Boot**, **Spring Web**, **Spring Data JPA**, and **SQLite**.  
 It provides REST APIs to upload, list, download, and delete medical documents.
 
 ---
@@ -46,8 +45,10 @@ Install:
 - **Postman** (API testing)
 
 ---
-## **1️⃣ Open / Clone project or download backend folder**
-## 2️⃣ Run using IntelliJ IDEA
+### **1️⃣ Open / Clone project or download backend folder**
+Clone or download the backend folder to your local machine.
+
+### 2️⃣ Run using IntelliJ IDEA
 
 1. Open project(backend folder) in IntelliJ
 2. Let Maven import dependencies
@@ -178,7 +179,7 @@ Delete message if success otherwise error message.
 ![Postman Screenshot](./images/documents_delete.png)
 
 
-## Upload Directory (Important)
+## Upload Directory
 
 Your backend stores uploaded files in:
 

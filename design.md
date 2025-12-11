@@ -19,7 +19,7 @@ I used **React (Create React App)** because:
 
 ---
 
-### **Backend framework and why?**
+### **Backend framework and reasons to choose**
 I used **Spring Boot** because:
 
 - Reliable REST API development  
@@ -30,7 +30,7 @@ I used **Spring Boot** because:
 
 ---
 
-### **Database and why?**
+### **Database and reasons to choose**
 I chose **SQLite** because:
 
 - Lightweight and serverless  
@@ -40,7 +40,7 @@ I chose **SQLite** because:
 - Good enough for single-user scenario  
 ---
 
-### **The changes would you consider to support 1,000 users.**
+### **The changes would I consider to support 1,000 users.**
 
 - Migrate SQLite → PostgreSQL/MySQL  
 - Store files in AWS S3 instead of local folder  
@@ -66,7 +66,7 @@ I chose **SQLite** because:
 
 ---
 
-## **Frontend (React)**
+### **Frontend (React)**
 
 - User selects PDF  
 - React validates file (type + size)  
@@ -76,7 +76,7 @@ I chose **SQLite** because:
 
 ---
 
-## **Backend (Spring Boot)**
+### **Backend (Spring Boot)**
 
 - Receives upload, download, and delete API calls  
 - Validates file type and size  
@@ -87,7 +87,7 @@ I chose **SQLite** because:
 
 ---
 
-## **File Storage (uploads/)**
+### **File Storage (uploads/)**
 
 - Stores physical PDF files  
 - Files are saved using a UUID-based unique name  
@@ -95,7 +95,7 @@ I chose **SQLite** because:
 
 ---
 
-## **Database (SQLite)**
+### **Database (SQLite)**
 
 Stores metadata such as:
 
@@ -114,7 +114,7 @@ Supports operations:
 
 ---
 
-## **Return Flow**
+### **Return Flow**
 
 - Backend sends success or error JSON  
 - Frontend refreshes the document list  
@@ -127,7 +127,7 @@ For detailed API behavior and Postman testing steps, refer to:
 ➡️ [API Endpoints, Functionality & Testing](backend/README.md#api-endpoints-functionality--testing-using-postman)
 
 
-# 5. 🔄 Data Flow Description
+# 5. Data Flow Description
 
 ### **Upload Flow**
 1. User selects PDF file in the browser.

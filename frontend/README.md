@@ -1,9 +1,6 @@
 # 🌐 Healthcare Document Portal — Frontend (React)
 
-This is the frontend part for the **Healthcare Document Portal**, made using **React CRA**, **Bootstrap**, and **Axios**.  
-User can upload medical documents (PDF only), see list, download and delete documents.  
-UI is kept simple and responsive.
-
+This is the frontend part for the **Healthcare Document Portal**, made using **React CRA**, **Bootstrap**, and **Axios**.  User can upload medical documents (PDF only), see list, download and delete documents. UI is kept simple and responsive.
 ---
 
 ## Overview
@@ -46,7 +43,7 @@ Design is clean and easy to follow.
 
 ---
 
-## Updating Backend URI (IMPORTANT)
+## Updating Backend URI
 
 If your backend is running on another URL, update it inside:
 
@@ -54,28 +51,28 @@ If your backend is running on another URL, update it inside:
 
 Find:
 
-\```js
+```js
 const baseURL = "http://localhost:8081";
-\```
+```
 
-## How to Run Locally
+## Setup and run locally
 
 Make sure **Node.js** and **npm** are installed.
 
 ### 1️⃣ Go to project folder
-\```bash
+```bash
 cd frontend
-\```
+```
 
 ### 2️⃣ Install dependencies
-\```bash
+```bash
 npm install
-\```
+```
 
 ### 3️⃣ Start the development server
-\```bash
+```bash
 npm start
-\```
+```
 
 Frontend will open at:
 
