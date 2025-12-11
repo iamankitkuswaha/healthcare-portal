@@ -8,14 +8,14 @@ The system stores files in a local folder and saves metadata inside SQLite datab
 # Project Overview
 
 The application has two main parts:
-## **[Frontend (React CRA)](<frontend-github-url>)**  
+## **[Frontend (React CRA)](https://github.com/iamankitkuswaha/healthcare-portal/blob/main/README.md)**  
 - Upload PDF files
 - Shows all uploaded documents
 - Allows download & delete
 - Uses Axios for API calls
 - UI is responsive with Bootstrap
 
-## **[Backend (Spring Boot + SQLite)](<backend-github-url>)**  
+## **[Backend (Spring Boot + SQLite)](https://github.com/iamankitkuswaha/healthcare-portal/blob/main/backend/README.md)**  
 - Exposes REST API endpoints
 - Handles PDF upload (multipart)
 - Validates file type & size
